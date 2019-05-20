@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/oz/IHC_TEST_DE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/oz/.gradle/caches/transforms-2/files-2.1/d82247b53c240bbdf3c8c860950d50c9/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

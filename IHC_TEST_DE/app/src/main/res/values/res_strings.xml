@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clist">Create List</string>
+    <string name="slist">Show Lists</string>
+    <string name="browse">Browse Products</string>
+    <string name="preferences">User Preferences</string>
+    <string name="plist">Product List</string>
+    <string name="tlist">Text List</string>
+    <string name="alergies">Set Alergies</string>
+</resources>
