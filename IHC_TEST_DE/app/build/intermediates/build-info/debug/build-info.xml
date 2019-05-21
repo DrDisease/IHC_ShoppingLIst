@@ -2,40 +2,58 @@
 <instant-run
     abi="x86"
     api-level="29"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1558422458126"
+    timestamp="1558437881358"
     token="-7029801310359255366"
-    verifier="COMPATIBLE" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
         duration="0" />
     <task
         name="instant-run-dex"
-        duration="137" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="121" />
+        duration="31" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
-        location="/home/oz/IHC_TEST_DE/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1558422242593"
+        timestamp="1558437664027"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -44,48 +62,22 @@
             location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/oz/IHC_TEST_DE/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1558422419025"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1558437881358"
+        verifier="CLASS_ADDED" >
         <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/builds/debug/1558422419025/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1558422458126"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/oz/IHC_TEST_DE/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/home/oz/IHC_TEST_DE/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

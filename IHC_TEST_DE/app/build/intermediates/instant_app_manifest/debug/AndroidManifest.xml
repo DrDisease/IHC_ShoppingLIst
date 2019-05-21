@@ -19,6 +19,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.myapplication.list_check" >
+        </activity>
+        <activity android:name="com.example.myapplication.ListDisplay" >
+        </activity>
+        <activity android:name="com.example.myapplication.ShowLists" >
+        </activity>
+        <activity android:name="com.example.myapplication.textList" >
+        </activity>
         <activity
             android:name="com.example.myapplication.Allergies"
             android:parentActivityName="com.example.myapplication.Preferences" >
