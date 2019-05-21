@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
 MERGED from [com.google.android.material:material:1.0.0] /home/oz/.gradle/caches/transforms-2/files-2.1/57a36d60601667dd631fd03b4a1ff0c7/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/oz/.gradle/caches/transforms-2/files-2.1/d82247b53c240bbdf3c8c860950d50c9/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.0.2] /home/oz/.gradle/caches/transforms-2/files-2.1/ea3e3cb53237ed379fca467615f8c11e/AndroidManifest.xml:2:1-7:12
@@ -36,25 +36,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/oz/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/oz/.gradle/caches/transforms-2/files-2.1/1c992f5317b54f01e0cb7597645aa217/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/oz/.gradle/caches/transforms-2/files-2.1/e2a8566392d72adbef27d3100c3f110a/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/oz/.gradle/caches/transforms-2/files-2.1/3668018a313e78b66afe851d26c863d4/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:3:11-46
 		INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml
 		INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
 		INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:1-60:12
 		INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:5:5-34:19
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:5:5-58:19
 MERGED from [com.google.android.material:material:1.0.0] /home/oz/.gradle/caches/transforms-2/files-2.1/57a36d60601667dd631fd03b4a1ff0c7/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/oz/.gradle/caches/transforms-2/files-2.1/57a36d60601667dd631fd03b4a1ff0c7/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/oz/.gradle/caches/transforms-2/files-2.1/ad24009df6cdbdf53d91265dc58b47e3/AndroidManifest.xml:9:5-20
@@ -78,47 +78,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/oz/.g
 	android:theme
 		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:11:13-44
 activity#com.example.myapplication.Allergies
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:12:9-13:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:parentActivityName
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:14:17-58
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:12:19-44
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:13:17-42
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:16:13-18:52
+	android:value
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:18:21-49
+	android:name
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:17:21-67
 activity#com.example.myapplication.BrowseProducts
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:14:9-18:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:21:9-25:20
 	android:label
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:16:17-71
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:23:17-71
 	android:theme
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:17:17-60
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:24:17-60
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:15:17-47
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:22:17-47
 activity#com.example.myapplication.Preferences
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:19:9-20:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:26:9-33:20
+	android:parentActivityName
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:27:19-57
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:19:19-46
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:26:19-46
 activity#com.example.myapplication.showLists
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:21:9-22:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:34:9-40:20
+	android:parentActivityName
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:35:19-57
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:21:19-44
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:34:19-44
 activity#com.example.myapplication.CreateList
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:23:9-24:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:41:9-48:20
+	android:parentActivityName
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:43:17-55
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:23:19-45
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:42:17-43
 activity#com.example.myapplication.mainMenu
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:25:9-26:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:49:9-50:20
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:25:19-43
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:49:19-43
 activity#com.example.myapplication.MainActivity
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:27:9-33:20
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:51:9-57:20
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:27:19-47
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:51:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:29:17-68
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:53:17-68
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:31:17-76
+ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:55:17-76
 	android:name
-		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml:55:27-74
 uses-sdk
 INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/oz/IHC_TEST_DE/app/src/main/AndroidManifest.xml

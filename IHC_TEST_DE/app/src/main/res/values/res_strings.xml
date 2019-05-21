@@ -7,4 +7,6 @@
     <string name="plist">Product List</string>
     <string name="tlist">Text List</string>
     <string name="alergies">Set Alergies</string>
+    <string name="lstnm">  List Name</string>
+    <string name="ins_prd"><font size="30" > Insert Products</font></string>
 </resources>

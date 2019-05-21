@@ -998,6 +998,7 @@ drawable app_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable background_2
 drawable banner
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1073,9 +1074,9 @@ id center
 id center_horizontal
 id center_vertical
 id chains
-id checEggs
-id checLactose
+id checkEggs
 id checkFish
+id checkLactose
 id checkPeanuts
 id checkShellfish
 id checkSoy
@@ -1127,6 +1128,7 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView4
 id imageView5
 id info
 id invisible
@@ -1168,6 +1170,7 @@ id radio
 id right
 id right_icon
 id right_side
+id saveBtn
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type

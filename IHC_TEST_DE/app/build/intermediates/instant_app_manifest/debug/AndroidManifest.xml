@@ -19,18 +19,38 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.myapplication.Allergies" >
+        <activity
+            android:name="com.example.myapplication.Allergies"
+            android:parentActivityName="com.example.myapplication.Preferences" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Preferences" />
         </activity>
         <activity
             android:name="com.example.myapplication.BrowseProducts"
             android:label="@string/title_activity_browse_products"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
-        <activity android:name="com.example.myapplication.Preferences" >
+        <activity
+            android:name="com.example.myapplication.Preferences"
+            android:parentActivityName="com.example.myapplication.mainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainMenu" />
         </activity>
-        <activity android:name="com.example.myapplication.showLists" >
+        <activity
+            android:name="com.example.myapplication.showLists"
+            android:parentActivityName="com.example.myapplication.mainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainMenu" />
         </activity>
-        <activity android:name="com.example.myapplication.CreateList" >
+        <activity
+            android:name="com.example.myapplication.CreateList"
+            android:parentActivityName="com.example.myapplication.mainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainMenu" />
         </activity>
         <activity android:name="com.example.myapplication.mainMenu" >
         </activity>

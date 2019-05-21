@@ -9,18 +9,44 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Allergies">
+        <activity android:name=".ListDisplay">
+        </activity>
+        <activity android:name=".ShowLists">
+        </activity>
+        <activity android:name=".textList">
+        </activity>
+        <activity
+                android:name=".Allergies"
+                android:parentActivityName=".Preferences">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".Preferences"/>
         </activity>
         <activity
                 android:name=".BrowseProducts"
                 android:label="@string/title_activity_browse_products"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".Preferences">
+        <activity
+                android:name=".Preferences"
+                android:parentActivityName=".mainMenu">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".mainMenu"/>
         </activity>
-        <activity android:name=".showLists">
+        <activity
+                android:name=".showLists"
+                android:parentActivityName=".mainMenu">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".mainMenu"/>
         </activity>
-        <activity android:name=".CreateList">
+        <activity
+                android:name=".CreateList"
+                android:parentActivityName=".mainMenu">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".mainMenu"/>
         </activity>
         <activity android:name=".mainMenu">
         </activity>

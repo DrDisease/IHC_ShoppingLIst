@@ -13,7 +13,7 @@
             android:layout_height="match_parent">
 
         <Button
-                android:text="@string/clist"
+                android:text="@string/tlist"
                 android:layout_width="185dp"
                 android:layout_height="450dp"
                 android:id="@+id/button2"
